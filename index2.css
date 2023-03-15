@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.nav {
+  width: 80vw;
+}
+
+.navR {
+  display: flex;
+  gap: 5%;
+  font-size: 2vh;
+  justify-content: space-between;
+}
+
+.but1 {
+  color: blue;
+  text-decoration: underline;
+}
+
+.icon {
+  height: 7vh;
+  width: 7vw;
+  object-fit: cover;
+}
+
+.nav1 {
+  display: flex;
+  gap: 5%;
+  font-size: 2vh;
+}
